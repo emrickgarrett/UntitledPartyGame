@@ -1,18 +1,18 @@
 {
-    "id": "99452ef2-0a50-4f9e-ad9a-6bdd688f546b",
+    "id": "1130039d-1b63-41e9-a8a9-da6d2cd39da7",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_PlaneGround",
+    "name": "o_BaseHarmfulObject",
     "eventList": [
         {
-            "id": "f911bf91-1cfb-4e63-b518-03f8228ae730",
+            "id": "d1ee4ded-21e9-4ab1-9113-2006008f9ecf",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "collisionObjectId": "52a2f425-637c-4192-aff9-c8d4608cd9ec",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "99452ef2-0a50-4f9e-ad9a-6bdd688f546b"
+            "eventtype": 4,
+            "m_owner": "1130039d-1b63-41e9-a8a9-da6d2cd39da7"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,7 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "626810d7-c4e4-42c0-aa9f-c852ddaa37a2",
+            "id": "dda1268c-54f7-4e67-b4c0-570dfd1002b1",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -43,11 +43,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "false",
-            "varName": "isFlipped",
+            "varName": "collidedWithPlayer",
             "varType": 3
         }
     ],
     "solid": false,
-    "spriteId": "6df06001-5f01-4dda-bb3b-bfe3948a5b23",
+    "spriteId": "58c3d551-4202-4db8-9b21-5d77e2ad1ecf",
     "visible": true
 }

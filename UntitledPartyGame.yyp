@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "1130039d-1b63-41e9-a8a9-da6d2cd39da7",
+            "Value": {
+                "id": "fd6b7e2d-e817-4a9e-ae3b-a4754e954f58",
+                "resourcePath": "objects\\o_BaseHarmfulObject\\o_BaseHarmfulObject.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1201ed3d-6785-4c5c-b0e9-069027b189e4",
             "Value": {
                 "id": "eada9d2f-988e-471e-b950-e638bb5bdd86",
@@ -395,6 +403,14 @@
             "Value": {
                 "id": "95723deb-bb28-4147-805c-0ef5d3443222",
                 "resourcePath": "objects\\o_PlaneGround\\o_PlaneGround.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9ff4441e-e750-4249-a530-625348415861",
+            "Value": {
+                "id": "9149799f-410c-4fd0-9485-9e2e2d52814a",
+                "resourcePath": "objects\\o_ObstacleSpawner\\o_ObstacleSpawner.yy",
                 "resourceType": "GMObject"
             }
         },
