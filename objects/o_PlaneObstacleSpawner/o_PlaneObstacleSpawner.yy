@@ -2,7 +2,7 @@
     "id": "9ff4441e-e750-4249-a530-625348415861",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_ObstacleSpawner",
+    "name": "o_PlaneObstacleSpawner",
     "eventList": [
         {
             "id": "afbdf675-f46b-4b63-83d7-a5070e265247",
@@ -12,16 +12,6 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 4,
             "eventtype": 7,
-            "m_owner": "9ff4441e-e750-4249-a530-625348415861"
-        },
-        {
-            "id": "25a0a10e-ade2-4bdd-a6fc-d699bd3816a6",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 3,
             "m_owner": "9ff4441e-e750-4249-a530-625348415861"
         },
         {
