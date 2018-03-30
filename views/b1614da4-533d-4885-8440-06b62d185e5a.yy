@@ -11,7 +11,8 @@
         "d175e0b5-dcd2-4c68-9106-2bf5fc9bc144",
         "b0a17608-6660-495e-bde7-59ddbcf91d23",
         "9ff4441e-e750-4249-a530-625348415861",
-        "311aafd7-8171-44b5-8f3a-cac5e5f22aa2"
+        "311aafd7-8171-44b5-8f3a-cac5e5f22aa2",
+        "ee6089ba-0700-4b48-a8eb-88a4cff43087"
     ],
     "filterType": "GMObject",
     "folderName": "PlaneGame",

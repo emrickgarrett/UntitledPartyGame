@@ -52,7 +52,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "10",
             "varName": "activeSpikes",
             "varType": 1
         },
@@ -66,7 +66,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "400",
             "varName": "averageSpikeDistance",
             "varType": 1
         },
@@ -111,20 +111,6 @@
             "value": "0",
             "varName": "gameProgressionLevel",
             "varType": 1
-        },
-        {
-            "id": "f35aba9c-e079-4042-a647-d2dd98f0a1b2",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "Top",
-            "varName": "lastCreatedSpike",
-            "varType": 2
         },
         {
             "id": "b131ad21-6c01-4bcf-a9fd-7353c8e82874",

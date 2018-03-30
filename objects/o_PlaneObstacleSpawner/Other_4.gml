@@ -13,8 +13,10 @@ for(var i = 0; i < floorCount; i++) {
 	
 	topFloor.isFlipped = true
 	topFloor.hspeed = -roomSpeed
+	topFloor.biome = biome
 	bottomFloor.isFlipped = false
 	bottomFloor.hspeed = -roomSpeed
+	bottomFloor.biome = biome
 	
 	lastGroundX += sprite_get_width(s_PlaneGround)
 }

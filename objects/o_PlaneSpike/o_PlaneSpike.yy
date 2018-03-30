@@ -4,11 +4,30 @@
     "mvc": "1.0",
     "name": "o_PlaneSpike",
     "eventList": [
-        
+        {
+            "id": "eff1f3eb-513f-4323-a783-b527398082f7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "b5ae8a5c-1d81-4b0e-8ee7-f333080facc0"
+        },
+        {
+            "id": "594a4e06-22f3-4a11-8dd3-1b7e053a6969",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "b5ae8a5c-1d81-4b0e-8ee7-f333080facc0"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "ee6089ba-0700-4b48-a8eb-88a4cff43087",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -22,7 +41,50 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "89e601ef-bfec-4f0a-94a3-50762848fe09",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "false",
+            "varName": "isFlipped",
+            "varType": 3
+        },
+        {
+            "id": "2c611f0d-6fe2-488a-a04d-71548675c35e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 5,
+            "rangeMin": 3,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "maxHeight",
+            "varType": 0
+        },
+        {
+            "id": "5d81beb4-b115-4a46-9638-290040808b19",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1.5",
+            "varName": "minHeight",
+            "varType": 0
+        }
+    ],
     "solid": false,
     "spriteId": "bc09ff93-011a-44cd-a313-faf634ff2d21",
     "visible": true
