@@ -6,7 +6,8 @@
     "children": [
         "b8493fc0-6347-4bfe-a35b-24a3deab7678",
         "f0547f6e-6908-4e2c-b2a2-993b839533bb",
-        "5bef67d1-c713-4e73-94eb-9cf3a1190677"
+        "5bef67d1-c713-4e73-94eb-9cf3a1190677",
+        "77ef2402-de55-4c8c-93a2-02b01f92326e"
     ],
     "filterType": "GMSprite",
     "folderName": "UI",

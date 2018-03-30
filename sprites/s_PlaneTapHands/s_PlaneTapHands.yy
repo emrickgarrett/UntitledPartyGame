@@ -2,7 +2,7 @@
     "id": "5bef67d1-c713-4e73-94eb-9cf3a1190677",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "s_PlaneTap",
+    "name": "s_PlaneTapHands",
     "For3D": false,
     "HTile": false,
     "VTile": false,

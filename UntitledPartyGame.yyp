@@ -218,7 +218,7 @@
             "Key": "5bef67d1-c713-4e73-94eb-9cf3a1190677",
             "Value": {
                 "id": "d0d0e986-8bb8-4df4-9c59-9f9a4fb98a3c",
-                "resourcePath": "sprites\\s_PlaneTap\\s_PlaneTap.yy",
+                "resourcePath": "sprites\\s_PlaneTapHands\\s_PlaneTapHands.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -276,6 +276,14 @@
                 "id": "ba7c9521-0a21-4193-93de-1dc480825b01",
                 "resourcePath": "views\\77a52c4a-ab5f-43ec-a914-062175b4aa23.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "77ef2402-de55-4c8c-93a2-02b01f92326e",
+            "Value": {
+                "id": "506706e3-efc4-4dfc-9446-543ca81b8044",
+                "resourcePath": "sprites\\s_PlaneTapWords\\s_PlaneTapWords.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
