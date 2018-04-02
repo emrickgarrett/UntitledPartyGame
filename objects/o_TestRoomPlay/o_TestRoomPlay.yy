@@ -5,16 +5,6 @@
     "name": "o_TestRoomPlay",
     "eventList": [
         {
-            "id": "89156719-22f8-4b7a-bdc8-ed8337b05781",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 37,
-            "eventtype": 9,
-            "m_owner": "e2872f5f-e45f-4c2f-861d-c9733003b815"
-        },
-        {
             "id": "283ff6cc-f619-407f-9802-d65e4f495e3e",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -42,6 +32,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 1,
             "eventtype": 3,
+            "m_owner": "e2872f5f-e45f-4c2f-861d-c9733003b815"
+        },
+        {
+            "id": "2c92ff72-7dfe-47bf-a3ff-b44ec1ad7b85",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 7,
+            "eventtype": 6,
             "m_owner": "e2872f5f-e45f-4c2f-861d-c9733003b815"
         }
     ],

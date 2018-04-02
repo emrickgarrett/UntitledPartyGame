@@ -1,5 +1,8 @@
 /// @TODO
 
+event_inherited()
+
+room_goto(r_PlaneGame)
 
 //Ask if host or client
 
@@ -9,3 +12,4 @@
 //Host will also need a client controller as well (for now, to make it easier)
 
 //Transition Room (Create room script?)
+
