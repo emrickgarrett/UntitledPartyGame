@@ -1,6 +1,6 @@
 /// @Basic Client Creation Mumbo Jumbo
 
-client_socket = network_create_socket(network_socket_tcp)
+client_socket = network_create_socket(network_socket_udp)
 network_set_config(network_config_connect_timeout, 4000)
 network_set_config(network_config_use_non_blocking_socket, 1)
 
