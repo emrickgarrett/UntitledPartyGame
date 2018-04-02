@@ -1,33 +1,43 @@
 {
-    "id": "5674a997-5633-4b15-8512-41db171ef6e0",
+    "id": "0e3fdbc5-be1a-4d43-9790-111b85c7ae1a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_PlaneServer",
+    "name": "o_PlaneAI",
     "eventList": [
         {
-            "id": "07d6760f-79f8-4eba-acc6-311fbbf179bd",
+            "id": "6c8528a9-64a6-4114-81c3-390a2cd1e5bb",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 68,
-            "eventtype": 7,
-            "m_owner": "5674a997-5633-4b15-8512-41db171ef6e0"
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "0e3fdbc5-be1a-4d43-9790-111b85c7ae1a"
         },
         {
-            "id": "055796a5-9faf-4977-bdbd-00c37e110391",
+            "id": "d602cfe7-9629-4491-ad9f-66a7214f539d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 3,
+            "m_owner": "0e3fdbc5-be1a-4d43-9790-111b85c7ae1a"
+        },
+        {
+            "id": "407ab451-54cf-4cbe-a870-5b7b5127c62b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "5674a997-5633-4b15-8512-41db171ef6e0"
+            "m_owner": "0e3fdbc5-be1a-4d43-9790-111b85c7ae1a"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "2766b099-be11-4fcf-ae31-ae359fcc5ddf",
+    "parentObjectId": "25b2300c-8953-41ac-8100-8df2f3fb0acf",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -41,8 +51,10 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        
+    ],
     "solid": false,
-    "spriteId": "7a9e6787-c62b-4606-8465-23e36f114eee",
+    "spriteId": "6b0a5e46-c301-4e14-a73f-7a166891f6f0",
     "visible": true
 }

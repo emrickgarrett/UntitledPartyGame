@@ -1,4 +1,5 @@
 /// @Handle general async networking logic
+//TODO Change to UDP -- currently TCP logic
 
 var n_id = ds_map_find_value(async_load, "id")
 
@@ -17,10 +18,12 @@ if(n_id == server_socket) {
 			//Will want to put this in my player list
 			ds_list_add(socketlist, socket)
 			show_message("Connect")
+			humanPlayers++
 		break;
 		case network_type_disconnect:
 			//User Disconnected
 			show_message("Disconnect")
+			humanPlayers--
 		break;
 		case network_type_data:
 			//Handle Data
@@ -30,6 +33,9 @@ if(n_id == server_socket) {
 			if(cmd_type == GeneralData) {
 				//Something for high level adjustments (joining/leaving, namechange, etc)
 			} else {
+				ds_map_add(ServerData, ServerPackets, t_buffer)
+				ds_map_add(ServerData, ServerSender, inst)
+				ds_map_add(ServerData, CommandType, cmd_type)
 				hasNetworkData = true	
 			}
 		break;

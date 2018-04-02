@@ -2,7 +2,7 @@
     "id": "1130039d-1b63-41e9-a8a9-da6d2cd39da7",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_BaseHarmfulObject",
+    "name": "o_BaseHarmful",
     "eventList": [
         {
             "id": "d1ee4ded-21e9-4ab1-9113-2006008f9ecf",

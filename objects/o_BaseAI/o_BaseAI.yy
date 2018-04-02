@@ -1,19 +1,10 @@
 {
-    "id": "52a2f425-637c-4192-aff9-c8d4608cd9ec",
+    "id": "25b2300c-8953-41ac-8100-8df2f3fb0acf",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_BasePlayerObject",
+    "name": "o_BaseAI",
     "eventList": [
-        {
-            "id": "c0ed4b94-37b7-410a-ac90-72b93825c70a",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "1130039d-1b63-41e9-a8a9-da6d2cd39da7",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "52a2f425-637c-4192-aff9-c8d4608cd9ec"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,7 +24,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "e7e0093e-2eb3-4395-8385-11da47dca6b7",
+            "id": "41913bb0-ce53-4a52-b3b9-012b046f9204",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -42,12 +33,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "\"Player\"",
-            "varName": "playerName",
+            "value": "\"Hughbert\"",
+            "varName": "name",
             "varType": 2
         },
         {
-            "id": "495c1058-b42c-4599-af79-03eaa7c5c5b5",
+            "id": "8e1e3493-62a6-44c8-babe-260af6c0122a",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -57,11 +48,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "playerId",
-            "varType": 1
+            "varName": "player_id",
+            "varType": 0
         },
         {
-            "id": "5102de3f-9304-490c-9090-63fa684cbf95",
+            "id": "f4146e8c-4ea4-47dd-884b-32bd80ecabb0",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -70,12 +61,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "000000",
-            "varName": "playerColor",
+            "value": "5",
+            "varName": "reflexes",
             "varType": 1
         },
         {
-            "id": "7db1f96e-09a7-47a7-adc3-ddc9e0b138f2",
+            "id": "a7e848d8-dbdf-41e2-a5df-8a2f5c9210e6",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -84,12 +75,26 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "false",
-            "varName": "beingHarmed",
-            "varType": 3
+            "value": "5",
+            "varName": "intellect",
+            "varType": 1
+        },
+        {
+            "id": "5e5fd9e6-6191-4c98-becd-74f5bfd8e5cc",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "strength",
+            "varType": 1
         }
     ],
     "solid": false,
-    "spriteId": "58c3d551-4202-4db8-9b21-5d77e2ad1ecf",
+    "spriteId": "6b0a5e46-c301-4e14-a73f-7a166891f6f0",
     "visible": true
 }

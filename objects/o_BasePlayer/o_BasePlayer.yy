@@ -1,44 +1,24 @@
 {
-    "id": "2766b099-be11-4fcf-ae31-ae359fcc5ddf",
+    "id": "52a2f425-637c-4192-aff9-c8d4608cd9ec",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_BaseServerObject",
+    "name": "o_BasePlayer",
     "eventList": [
         {
-            "id": "d747f08b-9aab-44b1-8097-dafdcccb3180",
+            "id": "c0ed4b94-37b7-410a-ac90-72b93825c70a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "collisionObjectId": "1130039d-1b63-41e9-a8a9-da6d2cd39da7",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "2766b099-be11-4fcf-ae31-ae359fcc5ddf"
-        },
-        {
-            "id": "0c4dd7c0-2b0c-482a-88fa-9d83d1781471",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 68,
-            "eventtype": 7,
-            "m_owner": "2766b099-be11-4fcf-ae31-ae359fcc5ddf"
-        },
-        {
-            "id": "415a295b-9c0e-4dda-b179-82975ec5f5db",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 1,
-            "m_owner": "2766b099-be11-4fcf-ae31-ae359fcc5ddf"
+            "eventtype": 4,
+            "m_owner": "52a2f425-637c-4192-aff9-c8d4608cd9ec"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": true,
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -53,7 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "6ee5ccee-32b8-4f3f-b4c0-b9dc9b5e4288",
+            "id": "e7e0093e-2eb3-4395-8385-11da47dca6b7",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -62,12 +42,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "\"Menu\"",
-            "varName": "room",
+            "value": "\"Player\"",
+            "varName": "playerName",
             "varType": 2
         },
         {
-            "id": "fd000e36-884b-4291-9414-8cc0950a3d3e",
+            "id": "495c1058-b42c-4599-af79-03eaa7c5c5b5",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -76,12 +56,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "",
-            "varName": "players",
-            "varType": 6
+            "value": "0",
+            "varName": "playerId",
+            "varType": 1
         },
         {
-            "id": "ff1741b0-ed90-4962-aa8e-6f2828eab0a3",
+            "id": "5102de3f-9304-490c-9090-63fa684cbf95",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -90,12 +70,26 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "4",
-            "varName": "maxPlayers",
+            "value": "000000",
+            "varName": "playerColor",
             "varType": 1
+        },
+        {
+            "id": "7db1f96e-09a7-47a7-adc3-ddc9e0b138f2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "false",
+            "varName": "beingHarmed",
+            "varType": 3
         }
     ],
     "solid": false,
-    "spriteId": "7a9e6787-c62b-4606-8465-23e36f114eee",
+    "spriteId": "58c3d551-4202-4db8-9b21-5d77e2ad1ecf",
     "visible": true
 }

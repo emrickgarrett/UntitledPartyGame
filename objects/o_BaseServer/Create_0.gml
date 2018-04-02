@@ -12,4 +12,5 @@ if(server_socket < 0) {
 }
 
 
-
+//Create Map for Base objects to use
+ServerData = ds_map_create()

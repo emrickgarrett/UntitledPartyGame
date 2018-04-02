@@ -8,5 +8,8 @@
 #macro RoomChange 4
 #macro TurnChange 5
 #macro GeneralData 6
+#macro ServerSender 1001
+#macro CommandType 1002
+#macro ServerPackets 1003
 #macro PORT 10500
 #macro HOSTCLIENTPORT 10500

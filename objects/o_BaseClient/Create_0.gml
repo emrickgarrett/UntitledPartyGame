@@ -5,10 +5,11 @@ network_set_config(network_config_connect_timeout, 4000)
 network_set_config(network_config_use_non_blocking_socket, 1)
 
 var server = network_connect(client_socket, serverIp, PORT);
-if(server < 0){
+if(server < 0) {
 	//No connection, need to resend or prompt user
-	show_debug_message("Whoops!")
+	show_debug_message(string(server))
+	show_debug_message("Failed to connect to Host")
 } else {
-	//Connected, to do	
-	show_debug_message("Connected!")
+	//Connected, TODO	
+	show_debug_message("Connected to Host!")
 }
