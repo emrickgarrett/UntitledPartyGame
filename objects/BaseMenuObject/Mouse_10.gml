@@ -5,3 +5,4 @@ if(hit_play) {
 }
 
 hit_play = false
+highlight = true

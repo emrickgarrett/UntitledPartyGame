@@ -1,7 +1,8 @@
-/// @Highlight/Dehighlight an image
+/// @Highlight code
 
 if(highlight) {
 	image_index = 1	
 } else {
 	image_index = 0
 }
+

@@ -4,12 +4,41 @@
     "mvc": "1.0",
     "name": "o_BaseServerObject",
     "eventList": [
-        
+        {
+            "id": "d747f08b-9aab-44b1-8097-dafdcccb3180",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "2766b099-be11-4fcf-ae31-ae359fcc5ddf"
+        },
+        {
+            "id": "0c4dd7c0-2b0c-482a-88fa-9d83d1781471",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 68,
+            "eventtype": 7,
+            "m_owner": "2766b099-be11-4fcf-ae31-ae359fcc5ddf"
+        },
+        {
+            "id": "415a295b-9c0e-4dda-b179-82975ec5f5db",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
+            "m_owner": "2766b099-be11-4fcf-ae31-ae359fcc5ddf"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": false,
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -22,7 +51,50 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "6ee5ccee-32b8-4f3f-b4c0-b9dc9b5e4288",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "\"Menu\"",
+            "varName": "room",
+            "varType": 2
+        },
+        {
+            "id": "fd000e36-884b-4291-9414-8cc0950a3d3e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "",
+            "varName": "players",
+            "varType": 6
+        },
+        {
+            "id": "ff1741b0-ed90-4962-aa8e-6f2828eab0a3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "4",
+            "varName": "maxPlayers",
+            "varType": 1
+        }
+    ],
     "solid": false,
     "spriteId": "7a9e6787-c62b-4606-8465-23e36f114eee",
     "visible": true
