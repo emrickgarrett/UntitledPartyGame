@@ -861,6 +861,14 @@
                 "resourcePath": "views\/f5f71f73-dc2e-455e-91cd-e34fc8cf3606.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fef1fe8a-94e9-4d3d-9580-7ba6621b637e",
+            "Value": {
+                "id": "0ac1fb84-79f5-4457-af03-680aa3bf1753",
+                "resourcePath": "sounds\\a_race_theme\\a_race_theme.yy",
+                "resourceType": "GMSound"
+            }
         }
     ],
     "script_order": [
