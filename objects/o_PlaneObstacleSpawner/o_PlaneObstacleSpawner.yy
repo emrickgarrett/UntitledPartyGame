@@ -57,6 +57,20 @@
             "varType": 1
         },
         {
+            "id": "ba1eaa4b-76ea-4ba9-9300-75176bbc141f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "400",
+            "varName": "maxSpikeDistance",
+            "varType": 1
+        },
+        {
             "id": "65f3e087-5054-4bed-bc7b-7ceddb3986d7",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -68,6 +82,20 @@
             "resourceFilter": 1023,
             "value": "400",
             "varName": "averageSpikeDistance",
+            "varType": 1
+        },
+        {
+            "id": "51ade0c4-2766-40bb-b4aa-974a14d51f68",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "150",
+            "varName": "minimumSpikeDistance",
             "varType": 1
         },
         {
@@ -153,6 +181,20 @@
             "value": "0",
             "varName": "lastGroundX",
             "varType": 1
+        },
+        {
+            "id": "3dc5977a-c8c3-401c-8621-c3e574781d8a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "o_PlaneServerHandler",
+            "varName": "server",
+            "varType": 5
         }
     ],
     "solid": false,

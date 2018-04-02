@@ -66,7 +66,7 @@
             "rangeMax": 5,
             "rangeMin": 3,
             "resourceFilter": 1023,
-            "value": "3",
+            "value": "2.5",
             "varName": "maxHeight",
             "varType": 0
         },

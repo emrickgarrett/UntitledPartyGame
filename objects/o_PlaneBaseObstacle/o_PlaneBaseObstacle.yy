@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "o_PlaneBaseObstacle",
     "eventList": [
-        
+        {
+            "id": "43fe8fa1-e916-487c-976b-27b4ed9f8eff",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "ee6089ba-0700-4b48-a8eb-88a4cff43087"
+        },
+        {
+            "id": "72f0be64-f587-4814-b22f-30db540bc49f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "ee6089ba-0700-4b48-a8eb-88a4cff43087"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -36,6 +55,48 @@
             "value": "Dirt",
             "varName": "biome",
             "varType": 2
+        },
+        {
+            "id": "f9c38245-910d-4468-af38-b9957f33326f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "o_PlaneServerHandler",
+            "varName": "server",
+            "varType": 5
+        },
+        {
+            "id": "f3f5c189-065d-461e-bb95-59b28372809f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "roomSpeed",
+            "varType": 0
+        },
+        {
+            "id": "d4de840b-977f-460e-8026-f373ed5d1031",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "18",
+            "varName": "maxSpeed",
+            "varType": 0
         }
     ],
     "solid": false,
