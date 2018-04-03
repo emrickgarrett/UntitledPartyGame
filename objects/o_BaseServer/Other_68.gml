@@ -46,6 +46,10 @@ if(!is_undefined(t_buffer)) {
 			//remove human player
 			//send confirm message to user (if they are there to receive it)
 		break;
+		case HeartBeat:
+			//TODO send heartbeat from clients to let a brotha know if player is still alive.
+			//Necessary in UDP architecture, so we don't have a dead player hogging up a slot (should replace with AI)
+		break;
 		case GeneralData:
 			//Some general things, like votes, etc, etc
 		break;

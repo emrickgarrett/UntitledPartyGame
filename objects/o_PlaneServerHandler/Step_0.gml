@@ -1,7 +1,47 @@
 /// Handle Updates From Server
 
+//data is a buffer
+//sender is an ip? - confirm
+//command in the Constant
 if(!is_undefined(data) && !is_undefined(sender) && !is_undefined(command)) {
 	show_debug_message("Data retrieved!")
+	
+	switch(command) {
+		case Confirmation:
+			var confirmedAction = buffer_read(data, buffer_u8)
+			switch(confirmedAction) {
+				//Only thing to confirm at the moment is they have started their game
+				case GameStart:
+				
+				break;
+				case Death:
+				
+				break;
+				case Talk:
+				
+				break;
+				case Vote:
+				
+				break;
+				
+			}
+		break;
+		case LocationUpdate:
+		
+		break;
+		case Death:
+		
+		break;
+		case Talk:
+			//Far Future TODO
+		break;
+		case GeneralData:
+		
+		break;
+		case Vote:
+		
+		break;
+	}
 }
 
 /// Send game start
