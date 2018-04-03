@@ -6,7 +6,7 @@ if(plane == undefined) {
 			var tempPlane = instance_find(o_PlanePlayer, i)	
 			if(tempPlane.playerId == playerId) {
 				plane = tempPlane	
-				show_message("I AM ALIVE " + string(playerId))
+				show_debug_message("I AM ALIVE " + string(playerId))
 			}
 		}
 	}

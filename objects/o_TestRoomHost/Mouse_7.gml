@@ -9,4 +9,4 @@ instance_create_depth(-100,-100, 999, o_BaseServer)
 instance_create_depth(-100, -100, 999, o_BaseHostClient)
 
 //Transition Room (Create room script?)
-//room_goto(r_PlaneGame)
+room_goto(r_PlaneGame)
