@@ -1,6 +1,7 @@
 /// @Basic Server Creation Mumbo Jumbo
 server_socket = network_create_server(network_socket_udp, PORT, maxPlayers)
-socketlist = ds_list_create()
+player_list = ds_map_create()
+
 network_set_config(network_config_connect_timeout, 4000)
 network_set_config(network_config_use_non_blocking_socket, 1)
 

@@ -1,15 +1,15 @@
-///send_packet_to_client(type, data, dataType, socket)
+///send_packet_to_client(socket, buffer, ip)
 
-var type = argument0
-var data = argument1
-var dataType = argument2
-var socket = argument3
+var socket = argument0
+var buffer = argument1
+var ip = argument2
 
-var t_buffer = buffer_create(256, buffer_grow, 1)
-buffer_seek(t_buffer, buffer_seek_start, 0)
-buffer_write(t_buffer, buffer_u16, type)
-buffer_write(t_buffer, dataType, data)
+if(ds_map_exists(player_list, ip)) {
+	var port = ds_map_find_value(ds_map_find_value(player_list, ip), "port");
+	network_send_udp(socket, ip, port, buffer, buffer_tell(buffer))
+	show_debug_message("Packet sent to user... did they get it?")
+} else {
+	show_debug_message("Failed to send packet from host to client with ip: " + string(ip))	
+}
 
-network_send_packet(socket, t_buffer, buffer_tell(t_buffer))
-
-buffer_delete(t_buffer)
+buffer_delete(buffer)
