@@ -24,3 +24,4 @@ for(var i = 0; i < maxPlayers - humanPlayers; i++) {
 	ai.intellect = 2
 }
 
+

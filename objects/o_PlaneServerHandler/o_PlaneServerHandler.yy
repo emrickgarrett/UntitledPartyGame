@@ -93,6 +93,20 @@
             "value": "1",
             "varName": "gameSpeed",
             "varType": 0
+        },
+        {
+            "id": "5e827a59-e3f9-4395-b5fc-f0ab21072b98",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "false",
+            "varName": "gameStarted",
+            "varType": 3
         }
     ],
     "solid": false,

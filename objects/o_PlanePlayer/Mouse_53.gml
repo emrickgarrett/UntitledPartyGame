@@ -1,3 +1,4 @@
 /// @Set Accelerating Flag
-
-accelerating = true
+if(global.gameRunning && !global.gamePaused) {
+	accelerating = true
+}

@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "0d57a22f-afed-45cb-90cb-0b326c30dae4",
+            "Value": {
+                "id": "4cdcdb45-1b0b-47a9-9bea-7a86d23dc7c6",
+                "resourcePath": "objects\\o_PlaneHostClient\\o_PlaneHostClient.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0e280c8f-ec39-4ecc-953e-8fba98c3461d",
             "Value": {
                 "id": "ec7febc3-9682-4407-bbf4-65372547d4d0",
@@ -124,6 +132,14 @@
                 "id": "eada9d2f-988e-471e-b950-e638bb5bdd86",
                 "resourcePath": "views\/1201ed3d-6785-4c5c-b0e9-069027b189e4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "12d7bc6a-5e27-4d3e-865d-96b297d7d4b5",
+            "Value": {
+                "id": "7d7afcc7-e0d9-4426-8c60-81339f9e16e8",
+                "resourcePath": "scripts\\global_initialization\\global_initialization.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -380,6 +396,14 @@
                 "id": "d0d0e986-8bb8-4df4-9c59-9f9a4fb98a3c",
                 "resourcePath": "sprites\/s_PlaneTap\/s_PlaneTap.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5ca1ff79-4ed4-4281-99a6-8905d36e5d4d",
+            "Value": {
+                "id": "2e77003f-7189-4b6a-bb42-7f5234ee8f2e",
+                "resourcePath": "rooms\\LoadingRoom\\LoadingRoom.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -943,7 +967,8 @@
         "a84ff625-34df-4acf-86d9-f6451b8d1111",
         "d4540697-06ff-444d-a751-715e1c2f4a65",
         "2cd7de47-134d-44e2-a10d-65fb8e68835c",
-        "083e52e6-7c7c-4f29-8e5b-de1c29e692af"
+        "083e52e6-7c7c-4f29-8e5b-de1c29e692af",
+        "12d7bc6a-5e27-4d3e-865d-96b297d7d4b5"
     ],
     "tutorial": ""
 }

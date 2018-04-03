@@ -115,20 +115,6 @@
             "varType": 3
         },
         {
-            "id": "44ca28a0-c766-4abe-a22d-067908ca7ab5",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "false",
-            "varName": "tapped",
-            "varType": 3
-        },
-        {
             "id": "fe771b9f-8f8b-4470-bd31-9de259413a7c",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",

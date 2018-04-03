@@ -15,3 +15,6 @@ buffer_seek(send_buffer, buffer_seek_start, 0)
 buffer_write(send_buffer, buffer_u8, Join)
 buffer_write(send_buffer, buffer_string, "Test Name")
 network_send_udp(client_socket, server_ip, PORT, send_buffer, buffer_tell(send_buffer))
+
+//Create Map for Base objects to use
+ServerData = ds_map_create()

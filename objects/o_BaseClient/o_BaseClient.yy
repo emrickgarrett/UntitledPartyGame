@@ -33,6 +33,16 @@
             "enumb": 0,
             "eventtype": 1,
             "m_owner": "0a1adc93-acf5-4445-b858-bd7ebe856aa8"
+        },
+        {
+            "id": "89ebdb96-fcba-4067-860b-e664d36ad8c2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 7,
+            "m_owner": "0a1adc93-acf5-4445-b858-bd7ebe856aa8"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -107,6 +117,20 @@
             "value": "\"Test\"",
             "varName": "name",
             "varType": 2
+        },
+        {
+            "id": "2051709e-c5ef-4d29-8897-3c5b0f560909",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "playerObject",
+            "varType": 5
         }
     ],
     "solid": false,
